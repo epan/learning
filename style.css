@@ -1,0 +1,158 @@
+h1 {
+	font-size: 2.5em;
+//	border: 1px solid white ;
+	margin-bottom: 10px;
+	font-family: 'Ribbon_V2_2011';
+	color: #CCC;
+}
+
+h2 {
+	font-family: 'MuseoSans-300';
+}
+
+body {
+	background-color: #333;
+	padding: 60px;
+	color: #CCC;
+}
+
+p {
+	font-family: 'MuseoSans-100';
+}
+
+#main-tweet {
+	border: solid;
+	padding: 40px 30px;
+	border-radius: 300px;
+	margin-top: 25px;
+/*	-webkit-transform:rotate(-5deg);
+	transform: rotate(-5deg);*/
+}
+#main-tweet p {
+//	border: solid;
+	padding: 0;
+	margin: 0;
+	font-family: 'essays1743-webfont';
+	position: relative;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+#main-tweet a {
+	font-family: 'essays1743-webfont';
+	color: #FFF;
+	text-decoration: none;
+}
+
+#main-tweet a:hover {
+	color: #999;
+}
+
+/* Start Testing the Triangle CSS */
+
+#main-tweet.top::before {
+top: -20px;
+bottom: auto;
+left: auto;
+right: 40px;
+border-width: 0 20px 20px;
+}
+
+#main-tweet::before {
+content: "";
+position: absolute;
+bottom: -20px;
+left: 40px;
+border-width: 20px 20px 0;
+border-style: solid;
+border-color: #CCC transparent;
+display: block;
+width: 0;
+}
+
+#main-tweet.top::after {
+top: -13px;
+bottom: auto;
+left: auto;
+right: 47px;
+border-width: 0 13px 13px;
+}
+
+#main-tweet::after {
+content: "";
+position: absolute;
+bottom: -15px;
+left: 45px;
+border-width: 15px 15px 0;
+border-style: solid;
+border-color: #333 transparent;
+display: block;
+width: 0;
+}
+
+/* END Testing the Triangle CSS */
+
+nav {
+	display: block;
+	float: right;
+	position: relative;
+	top: 250px;
+//	border: 1px solid white;
+}
+
+nav a {
+	padding-right: 15px;
+	font-size: 1.3em;
+	color: #999999;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+nav a:last-child {
+	padding: 0;
+}
+
+a:hover {color:grey;}
+
+#current-page {
+	color: white;
+}
+
+@font-face {
+	font-family: 'ostrich-regular';
+	src: url('ostrich-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ostrich-black';
+	src: url('ostrich-black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ribbon_V2_2011';
+	src: url('Ribbon_V2_2011.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MuseoSans-100';
+	src: url('MuseoSans-100.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'MuseoSans-300';
+	src: url('MuseoSans-300.otf') format('opentype');
+}
+@font-face {
+	font-family: 'essays1743-webfont';
+	src: url('essays1743-webfont.ttf') format('truetype');
+}
+
+* {
+	font-family: ostrich-regular;
+}
