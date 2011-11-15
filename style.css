@@ -122,35 +122,35 @@ a:hover {color:grey;}
 
 @font-face {
 	font-family: 'ostrich-regular';
-	src: url('ostrich-regular.ttf') format('truetype');
+	src: url('fonts/ostrich-regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'ostrich-black';
-	src: url('ostrich-black.ttf') format('truetype');
+	src: url('fonts/ostrich-black.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Ribbon_V2_2011';
-	src: url('Ribbon_V2_2011.otf') format('opentype');
+	src: url('fonts/Ribbon_V2_2011.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'MuseoSans-100';
-	src: url('MuseoSans-100.otf') format('opentype');
+	src: url('fonts/MuseoSans-100.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'MuseoSans-300';
-	src: url('MuseoSans-300.otf') format('opentype');
+	src: url('fonts/MuseoSans-300.otf') format('opentype');
 }
 @font-face {
 	font-family: 'essays1743-webfont';
-	src: url('essays1743-webfont.ttf') format('truetype');
+	src: url('fonts/essays1743-webfont.ttf') format('truetype');
 }
 
 * {
