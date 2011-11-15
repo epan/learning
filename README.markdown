@@ -1,0 +1,1 @@
+This repo contains a scratchpad of junk while I'm learning HTML & CSS.
